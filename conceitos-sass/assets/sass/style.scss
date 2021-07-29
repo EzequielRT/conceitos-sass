@@ -1,0 +1,9 @@
+h1 {
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* 
+Monitorando diretorio para processar SASS automaticamente
+sass --watch assets/sass:assets/css --no-source-map --style compressed
+*/
