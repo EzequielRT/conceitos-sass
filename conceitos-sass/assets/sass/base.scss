@@ -1,0 +1,14 @@
+body {
+    background-color:#CCC;
+}
+
+/* 
+Comando para processar CSS
+sass assets/sass/base.scss assets/css/style.css
+
+Comando para processar CSS sem o arq map
+sass assets/sass/base.scss assets/css/style.css --no-source-map
+
+Comando para processar CSS sem o arq map e com o CSS comprimido
+sass assets/sass/base.scss assets/css/style.css --no-source-map --style compressed
+*/
