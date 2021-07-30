@@ -15,6 +15,10 @@ nav ul {
 }
 nav li {
   display: inline-block;
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(60deg);
 }
 nav li a {
   display: block;
