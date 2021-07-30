@@ -47,3 +47,25 @@ nav li a {
   border-color: #0F0;
   color: #0F0;
 }
+
+.item, .item-duplo, .item-metade, .item-triplo {
+  background-color: #000;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.item {
+  width: 250px;
+}
+
+.item-duplo {
+  width: 500px;
+}
+
+.item-metade {
+  width: 125px;
+}
+
+.item-triplo {
+  width: 750px;
+}
