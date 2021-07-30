@@ -69,3 +69,49 @@ nav li a {
 .item-triplo {
   width: 750px;
 }
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9, .item-10 {
+  font-size: 14px;
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+.item-1 {
+  font-weight: bold;
+}
+
+.item-2 {
+  font-weight: bold;
+}
+
+.item-3 {
+  font-weight: bold;
+}
+
+.item-4 {
+  font-weight: normal;
+}
+
+.item-5 {
+  font-weight: normal;
+}
+
+.item-6 {
+  font-weight: normal;
+}
+
+.item-7 {
+  font-weight: normal;
+}
+
+.item-8 {
+  font-weight: normal;
+}
+
+.item-9 {
+  font-weight: normal;
+}
+
+.item-10 {
+  font-weight: normal;
+}

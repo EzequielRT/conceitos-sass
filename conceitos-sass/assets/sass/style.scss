@@ -81,3 +81,24 @@ $item-width: 250px;
     @extend %item;
     width:$item-width*3; 
 }
+
+%item-padrao {
+    font-size:14px;
+    border:1px solid #333;
+    padding:5px;
+}
+
+@for $i from 1 through 10 {
+
+    .item-#{$i} {
+        @extend %item-padrao;
+
+        @if $i <= 3 {
+            font-weight:bold;
+        }
+        @else {
+            font-weight:normal;
+        }
+    }
+
+}
