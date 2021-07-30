@@ -19,7 +19,6 @@ nav {
 
     li {
         display:inline-block;
-        @include girar(30deg);
 
         a {
             display:block;
@@ -29,4 +28,31 @@ nav {
             color:#000;
         }
     }
+}
+
+//Cria grupo de propriedades
+%fundamento-msg {
+    padding:10px;
+    font-size:24px;
+    border:2px solid #CCC;
+    margin:auto;
+    max-width:500px;
+    margin-top:10px;
+}
+
+// Usando grupo de propriedades
+.msg-info {
+    @extend %fundamento-msg;
+    border-color:#00F;
+    color:#00F
+}
+.msg-aviso {
+    @extend %fundamento-msg;
+    border-color:#F00;
+    color:#F00;
+}
+.msg-sucesso {
+    @extend %fundamento-msg;
+    border-color:#0F0;
+    color:#0F0;
 }
